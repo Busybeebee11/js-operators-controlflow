@@ -1,3 +1,6 @@
+
+// QUESTION 3
+
 // IF...ELSE CONDITIONAL STATEMENT
 
 let classGroup = "Arts"; // Class group to determine applicable subjects
@@ -27,10 +30,10 @@ if (classGroup === "Science") { // if...else conditional statement used to deter
 
 
 
-// WHILE LOOP
+// QUESTION 5
 
 // Challenge: write a program that takes a positive number (num) and finds the power of 2 nearest to that number.
-// Solution: demonstrated using a while loop and an if statement.
+// Solution: demonstrated using a WHILE LOOP and an IF statement.
 
 let num = 20; // initializes num to 20 and pwr to 1.
 let pwr = 1;
