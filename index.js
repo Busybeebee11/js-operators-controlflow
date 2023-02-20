@@ -7,8 +7,7 @@ let socialScienceSubjects = "Accounting, Commerce, Marketing, Geography";
 let artsSubjects = "Government, Economics, Literature, History";
 let generalSubjects = "English, Mathematics";
 
- // if...else conditional statement used to determine subjects based on class group selection
-if (classGroup === "Science") { 
+if (classGroup === "Science") { // if...else conditional statement used to determine subjects based on class group selection
   console.log(
     "You will be taking Physics, Chemistry, Biology, and Technical Drawing"
   );
@@ -27,6 +26,7 @@ if (classGroup === "Science") {
 }
 
 
+
 // WHILE LOOP
 
 // Challenge: write a program that takes a positive number (num) and finds the power of 2 nearest to that number.
@@ -39,8 +39,7 @@ while (pwr <= num) { // uses a while loop to keep doubling pwr until it exceeds 
   pwr *= 2;
 }
 
-if (pwr - num > num - pwr / 2) {
-  // checks if the difference between pwr and num is greater than the difference between num and pwr/2. If so, it halves pwr to get the smaller power of 2 nearest to num.
+if (pwr - num > num - pwr / 2) { // checks if the difference between pwr and num is greater than the difference between num and pwr/2. If so, it halves pwr to get the smaller power of 2 nearest to num.
   pwr /= 2;
 }
 
