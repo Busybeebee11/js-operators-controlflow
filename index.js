@@ -104,3 +104,5 @@ if (diff2 >= diff1) {
 }
 
 console.log("The number " + pwrSol + " is the power of 2 nearest to " + numSol);
+
+
